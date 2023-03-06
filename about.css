@@ -1,0 +1,23 @@
+*{
+    background-color:antiquewhite;
+}
+span{
+    font-weight: 500;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+P .heading{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li{
+    
+    font-size: 25px;
+    width: 250px;
+    list-style: none;
+    
+    
+}

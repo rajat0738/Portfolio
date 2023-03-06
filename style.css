@@ -1,0 +1,151 @@
+.logo {
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 100px; */
+    
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    margin-top: 35px;
+    list-style: none;
+    margin-right: 100px;
+    font-family: sans-serif;
+    color: #367AF6;
+}
+
+.info {
+    /* text-align: right; */
+    margin-left: 820px;
+    margin-top: 180px;
+    
+}
+
+.line {
+    margin-left: 820px;
+    margin-right: 400px;
+    height: 1px;
+    background-color:  rgb(84, 84, 246);
+}
+
+.info2 {
+    margin-left: 820px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#btn {
+    margin-left: 820px;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    background-color: #367AF6;
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    /* user-select: none; */
+    /* -webkit-user-select: none; */
+    /* touch-action: manipulation; */
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(150deg, rgb(87, 87, 246), rgb(111, 111, 237) 20%, white 40%, white);
+}
+.p1{
+    font-size: 32px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image{
+    margin-top: 150px;
+    margin-left: 490px;
+    height: 250px;
+    float: left;
+}
+.foot{
+    margin-top: 80px;
+    text-align: center;
+}
+.form {
+    position: absolute;
+    border-radius: 5px;
+    background: #e25a5a;
+     margin-left: 600px;
+    margin-top: -300px;
+    padding: 80px;
+    align-content: center;
+    outline: 5px black;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+/* #boop{
+    background-color: #fff;
+    width: 200px;
+    color: black;
+} */
+.filter{
+    filter: blur(8px);
+}
+.socials{
+    text-align: center;
+    
+}
+.fa {
+    padding: 8px 9px 8px 9px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+.fa-linkedin{
+    background-color: blue;
+    color: white;
+}  
+.fa-instagram{
+    background-color: palevioletred;
+    color: white;
+}  
+.fa-envelope{
+    background-color: whitesmoke;
+    color: red;
+}  

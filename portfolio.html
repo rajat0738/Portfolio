@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="head">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <span>Portfolio</span>
+                </div>
+                <div class="links">
+                    <li><a href="cv.pdf" target="_blank" style="text-decoration: none;">Resume</a></li>
+                    <li><a href="about.html" target="_blank" style="text-decoration: none;">About Me</a></li>
+                    <li><a href="contact.html" target="_blank" style="text-decoration: none;">Contact</a></li>
+                </div>
+
+            </div>
+        </nav>
+        
+        <img src="codes.png" alt="" class="image">
+        <div class="info">
+            <span class="p1">Hi This is Rajat</span><br>
+            <span class="p2">I am a Web developer</span>
+        </div>
+        <hr class="line">
+        <div class="info2">
+            <pre>For Work related Queries
+you can contact me
+            </pre>
+        </div>
+        <button id="btn">Contact</button>
+
+    </header>
+    <div id="boop" class="hidden">
+        <form id="form " class="form">
+
+            <label for="in1">Name: </label><input id="name" type="text" class="in1" placeholder="Enter name"><br><br>
+            <label for="in2">Email: </label><input type="text" class="in2" placeholder="Enter mail"><br><br>
+            <label for="in3">Description: </label><br><textarea class="in3" placeholder="Description"></textarea>
+            <br>
+            <button id="bttn" class="bttn">Submit</button>
+        </form>
+        <div id="alert" class="thanks hidden">
+            <h2>Thank You!</h2>
+            <p> We will Contact You soon</p>
+         </div>
+    </div>
+    
+    <footer>
+        <P class="foot">Made by Rajat </P>
+        <p class="socials"><a href="https://www.linkedin.com/in/rajat-kumar-b339b3205/" class="fa fa-linkedin"></a>
+        <a href="https://instagram.com/rajat_verma.rv?igshid=NDk5N2NlZjQ=" class="fa fa-instagram"></a>
+    <a href="mailto: 2002rajatverma@gmail.com" class="fa fa-envelope"></a></p>
+    </footer>
+    <script>
+        let press = document.getElementById("btn")
+press.onclick= function(){
+    var head = document.getElementById("head")
+    var form = document.getElementById("boop")
+    form.classList.remove("hidden")
+    form.classList.add("show")
+    head.classList.add("filter")
+    // prompt("Thank you "+ name)
+} 
+
+let submit = document.getElementById("bttn")
+
+
+
+
+    </script>
+</body>
+
+</html>
